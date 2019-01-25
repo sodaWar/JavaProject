@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lbb">
+    <resultMap id="TestCaseMap" type="com.lbb.model.TestCaseModel">
+        <result column="id" jdbcType="INTEGER" property="id"/>
+        <result column="interfaces_id" jdbcType="INTEGER" property="interfacesId"/>
+        <result column="key" jdbcType="VARCHAR" property="key"/>
+        <result column="value" jdbcType="VARCHAR" property="value"/>
+        <result column="parent_id" jdbcType="VARCHAR" property="parentId"/>
+        <result column="passed" jdbcType="INTEGER" property="passed"/>
+    </resultMap>
+    
+    <select id="findTestCaseById" resultMap="TestCaseMap" parameterType="java.lang.Integer">
+
+       SELECT *FROM t_testcase where  interfaces_id =#{interfacesId}
+
+    </select>
+
+</mapper>

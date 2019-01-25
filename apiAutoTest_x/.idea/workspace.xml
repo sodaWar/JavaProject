@@ -1,0 +1,961 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f02108c6-848d-465d-aca2-dcfefa4e5dc0" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="AllTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lbb/apiTestTwo/AllTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="13" column="52" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WhiteListPushTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lbb/apiTestTwo/WhiteListPushTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="697">
+              <caret line="49" lean-forward="true" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PushBlackList.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lbb/apiTest/PushBlackList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="23" column="82" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="79" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>mybatis</find>
+      <find>mysql-connector-java</find>
+      <find>findBckByMobile</find>
+      <find>findWhiteByParam</find>
+      <find>addGreyByParam</find>
+      <find>UserLabel</find>
+      <find>findBckByParam</find>
+      <find>addWhiteByParam</find>
+      <find>NEW_OWAPI_ORIGINAL_PUSH</find>
+      <find>orapi/credit/blackList</find>
+      <find>/orapi/credit/blacklist</find>
+      <find>findGreyByParam</find>
+      <find>write_yuqi_url</find>
+      <find>NEW_ORAPI_CREDIT_BLACKLIST</find>
+      <find>timeoutDay</find>
+      <find>findTIpblackListByIp</find>
+      <find>mysqlUtil</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/lbb/utils/GetHeaderUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lbb/utils/GetSignUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lbb/utils/MongoDBConfigUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Application.java" />
+        <option value="$PROJECT_DIR$/src/main/java/runTest.xml" />
+        <option value="$PROJECT_DIR$/src/runtest.xml.fxml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lbb/utils/testNg/ExtentTestNGIReporterListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lbb/model/Tblacklist.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lbb/model/TblacklistModel.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/mysql.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lbb/mapper/mysql.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lbb/model/TGreyList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lbb/model/TWhiteList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lbb/utils/HttpDoRequestUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lbb/apiTest/AS.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lbb/apiTest/BlackListSaveTwoTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lbb/model/TBlacklistModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lbb/model/TGreyListModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lbb/model/NameForApi.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lbb/apiTest/AddBackListTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lbb/utils/ReadConfigUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/TGreyList.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lbb/utils/MongoDbJDBCUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/TBlacklist.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lbb/apiTest/ass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lbb/apiTest/PushBlackList.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/TWhiteList.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lbb/model/TestCaseModel.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/TestCase.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/apiUrl.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lbb/apiTestTwo/WhiteListPush.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lbb/model/TAllRejectedTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lbb/model/TAixinqianbaoWhiteList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lbb/model/TDeviceidblackListModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lbb/model/TIpblackListModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lbb/model/TIsblackListModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lbb/model/TLoanAlreadyListModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lbb/utils/TwoDoRequestUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/TAixinqianbaoWhiteList.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lbb/utils/MysqlUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lbb/apiTest/BlackListSaveTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lbb/apiTest/CreditBlackListTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lbb/apiTest/OriginalPushTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lbb/apiTestTwo/AllTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/databaseConfig.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lbb/apiTest/NewOriginalPullTest.java" />
+        <option value="$PROJECT_DIR$/runTest.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lbb/apiTestTwo/WhiteListPushTest.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="E:/java/apache-maven-3.2.3" />
+        <option name="userSettingsFile" value="E:\java\apache-maven-3.2.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="autoTest" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="autoTest" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="autoTest" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="autoTest" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="28" />
+    <option name="y" value="97" />
+    <option name="width" value="1654" />
+    <option name="height" value="875" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="apiAutoTest_x" type="b2602c69:ProjectViewProjectNode" />
+              <item name="apiAutoTest_x" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apiAutoTest_x" type="b2602c69:ProjectViewProjectNode" />
+              <item name="apiAutoTest_x" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apiAutoTest_x" type="b2602c69:ProjectViewProjectNode" />
+              <item name="apiAutoTest_x" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apiAutoTest_x" type="b2602c69:ProjectViewProjectNode" />
+              <item name="apiAutoTest_x" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apiAutoTest_x" type="b2602c69:ProjectViewProjectNode" />
+              <item name="apiAutoTest_x" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lbb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apiAutoTest_x" type="b2602c69:ProjectViewProjectNode" />
+              <item name="apiAutoTest_x" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lbb" type="462c0819:PsiDirectoryNode" />
+              <item name="apiTest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apiAutoTest_x" type="b2602c69:ProjectViewProjectNode" />
+              <item name="apiAutoTest_x" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lbb" type="462c0819:PsiDirectoryNode" />
+              <item name="apiTestTwo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apiAutoTest_x" type="b2602c69:ProjectViewProjectNode" />
+              <item name="apiAutoTest_x" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lbb" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apiAutoTest_x" type="b2602c69:ProjectViewProjectNode" />
+              <item name="apiAutoTest_x" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apiAutoTest_x" type="b2602c69:ProjectViewProjectNode" />
+              <item name="apiAutoTest_x" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="test-classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="pei&#9;PSI&#9;JAVA://jdk.nashorn.internal.runtime.regexp.joni.ScannerSupport#peekIs" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../javaPractice" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.lbb.utils" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\beihui\apiAutoTest\src\main\resources\mapper" />
+      <recent name="D:\beihui\apiAutoTest\src\main\java\com\lbb\mapper" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="TestNG.WhiteListPushTest">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="AutoTestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="apiAutoTest" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lbb.api.demo.AutoTestApplication" />
+    </configuration>
+    <configuration name="D:/MyProgram/JavaProject/apiAutoTest_x/runTest.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="apiAutoTest" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="C:/Program Files/Java/jdk1.8.0" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/runTest.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="PushBlackList" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="apiAutoTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lbb.apiTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="com.lbb.apiTest" />
+      <option name="MAIN_CLASS_NAME" value="com.lbb.apiTest.PushBlackList" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="WhiteListPushTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="apiAutoTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lbb.apiTestTwo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="com.lbb.apiTestTwo" />
+      <option name="MAIN_CLASS_NAME" value="com.lbb.apiTestTwo.WhiteListPushTest" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="WhiteListPushTest.tDeviceIdBlackList" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="apiAutoTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lbb.apiTestTwo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="com.lbb.apiTestTwo" />
+      <option name="MAIN_CLASS_NAME" value="com.lbb.apiTestTwo.WhiteListPushTest" />
+      <option name="METHOD_NAME" value="tDeviceIdBlackList" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="WhiteListPushTest.whiteListPush" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="apiAutoTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lbb.apiTestTwo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="com.lbb.apiTestTwo" />
+      <option name="MAIN_CLASS_NAME" value="com.lbb.apiTestTwo.WhiteListPushTest" />
+      <option name="METHOD_NAME" value="whiteListPush" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.AutoTestApplication" />
+      <item itemvalue="TestNG.D:/MyProgram/JavaProject/apiAutoTest_x/runTest.xml" />
+      <item itemvalue="TestNG.PushBlackList" />
+      <item itemvalue="TestNG.WhiteListPushTest.tDeviceIdBlackList" />
+      <item itemvalue="TestNG.WhiteListPushTest.whiteListPush" />
+      <item itemvalue="TestNG.WhiteListPushTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.WhiteListPushTest" />
+        <item itemvalue="TestNG.WhiteListPushTest.whiteListPush" />
+        <item itemvalue="TestNG.WhiteListPushTest.tDeviceIdBlackList" />
+        <item itemvalue="TestNG.PushBlackList" />
+        <item itemvalue="TestNG.D:/MyProgram/JavaProject/apiAutoTest_x/runTest.xml" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f02108c6-848d-465d-aca2-dcfefa4e5dc0" name="Default" comment="" />
+      <created>1527732386052</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1527732386052</updated>
+      <workItem from="1527732388409" duration="150000" />
+      <workItem from="1527732590010" duration="248000" />
+      <workItem from="1527734140706" duration="1948000" />
+      <workItem from="1539339118002" duration="7000" />
+      <workItem from="1539339170757" duration="44000" />
+      <workItem from="1542081412835" duration="111000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="D__beihui_apiAutoTest_runTest_xml - 2018.05.30 at 13h 03m 53s.xml">
+      <configuration name="D:/beihui/apiAutoTest/runTest.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="D__beihui_apiAutoTest_runTest_xml - 2018.05.30 at 13h 07m 33s.xml">
+      <configuration name="D:/beihui/apiAutoTest/runTest.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="D__beihui_apiAutoTest_runTest_xml - 2018.05.30 at 13h 11m 30s.xml">
+      <configuration name="D:/beihui/apiAutoTest/runTest.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="D__beihui_apiAutoTest_runTest_xml - 2018.05.30 at 13h 12m 35s.xml">
+      <configuration name="D:/beihui/apiAutoTest/runTest.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="D__beihui_apiAutoTest_runTest_xml - 2018.05.30 at 13h 13m 10s.xml">
+      <configuration name="D:/beihui/apiAutoTest/runTest.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="D__beihui_apiAutoTest_runTest_xml - 2018.05.30 at 14h 27m 40s.xml">
+      <configuration name="D:/beihui/apiAutoTest/runTest.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="PushBlackList - 2018.05.31 at 10h 41m 45s.xml">
+      <configuration name="PushBlackList" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="WhiteListPushTest_tDeviceIdBlackList - 2018.05.31 at 11h 01m 10s.xml">
+      <configuration name="WhiteListPushTest.tDeviceIdBlackList" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="WhiteListPushTest_whiteListPush - 2018.05.31 at 11h 01m 23s.xml">
+      <configuration name="WhiteListPushTest.whiteListPush" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="WhiteListPushTest - 2018.11.13 at 11h 57m 26s.xml">
+      <configuration name="WhiteListPushTest" configurationId="TestNG" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2508000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5021322" side_tool="true" weight="0.3297062" />
+      <window_info anchor="right" id="Maven Projects" order="4" weight="0.104477614" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4173913" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4978678" weight="0.3297062" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.21895425" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="bottom" id="Java Enterprise" order="8" weight="0.3287858" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" weight="0.3287858" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2701525" />
+      <window_info anchor="bottom" x="1942" y="399" width="1876" height="241" id="Spring" order="11" type="WINDOWED" weight="0.26224157" />
+      <window_info anchor="bottom" id="Terminal" order="12" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5779221" visible="true" weight="0.23454158" />
+      <window_info anchor="right" id="Bean Validation" order="6" weight="0.32995737" />
+      <window_info id="Web" order="3" sideWeight="0.42207792" side_tool="true" weight="0.25053304" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Favorites" order="4" sideWeight="0.42207792" side_tool="true" weight="0.25053304" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.0879567" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="55" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml" />
+    <entry file="jar://E:/java/JDK1.8/Java/jdk1.8.0_60/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lbb/apiTest/BlackListSaveTwoTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Application.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lbb/apiTest/ass.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lbb/apiTest/OriginalPush.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.47/fastjson-1.2.47.jar!/com/alibaba/fastjson/JSONArray.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="23" column="50" lean-forward="true" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/java/JDK1.8/Java/jdk1.8.0_60/src.zip!/java/util/Collections.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/SuiteRunner.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lbb/utils/ReadConfigUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="542">
+          <caret line="57" column="60" selection-start-line="57" selection-start-column="34" selection-end-line="57" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lbb/utils/testNg/ExtentTestNGIReporterListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="35" column="17" lean-forward="true" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="26" column="45" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lbb/utils/MongoDbJDBCUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="36" column="40" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.5/mybatis-3.4.5.jar!/org/apache/ibatis/session/SqlSession.class" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/TGreyList.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="26" column="38" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/TestCase.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="56" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/TWhiteList.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1254">
+          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/TBlacklist.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="16" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/java/JDK1.8/Java/jdk1.8.0_60/src.zip!/java/lang/String.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lbb/utils/TwoDoRequestUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="17" column="29" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/TAixinqianbaoWhiteList.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="112" column="96" lean-forward="true" selection-start-line="112" selection-start-column="96" selection-end-line="112" selection-end-column="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/internal/Invoker.java" />
+    <entry file="jar://$APPLICATION_PLUGINS_DIR$/MyBatis plugin/lib/iMybatis-3.154.jar!/schemas/mybatis-3-config.dtd" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lbb/utils/MysqlUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="28" column="25" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lbb/utils/GetHeaderUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="13" column="80" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lbb/utils/GetSignUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="12" column="82" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lbb/utils/HttpDoRequestUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="26" column="48" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lbb/apiTest/OriginalPushTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1497">
+          <caret line="98" column="49" selection-start-line="98" selection-start-column="49" selection-end-line="98" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/databaseConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="14" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/apiUrl.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="34" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lbb/apiTest/AddBackListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="32" selection-start-line="26" selection-start-column="6" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lbb/apiTest/NewOriginalPullTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lbb/apiTest/BlackListSaveTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2618">
+          <caret line="170" selection-start-line="170" selection-end-line="170" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/runTest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0/src.zip!/java/util/Comparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="807">
+          <caret line="149" column="8" selection-start-line="149" selection-start-column="8" selection-end-line="149" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lbb/apiTest/CreditBlackListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1614">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lbb/model/TWhiteListModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lbb/model/TLoanAlreadyListModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="34" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lbb/model/TIsblackListModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lbb/model/TestCaseModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lbb/model/TAllRejectedModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lbb/model/TGreyListModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lbb/model/TIpblackListModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lbb/model/NameForApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="20" lean-forward="true" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lbb/model/TAixinqianbaoWhiteList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lbb/model/TBlacklistModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lbb/model/TDeviceidblackListModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="36" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lbb/apiTestTwo/AllTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="13" column="52" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lbb/apiTest/PushBlackList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="23" column="82" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lbb/apiTestTwo/WhiteListPushTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="49" lean-forward="true" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

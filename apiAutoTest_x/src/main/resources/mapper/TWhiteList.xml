@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.lbb">
+    <resultMap id="TWhiteListModelMap" type="com.lbb.model.TWhiteListModel">
+        <result column="id" property="id"></result>
+        <result column="user_name" property="userName"></result>
+        <result column="mobile" property="mobile"></result>
+        <result column="timeout_day" property="timeoutDay"></result>
+        <result column="gmt_create" property="gmtCreate"></result>
+        <result column="gmt_modify" property="gmtModify"></result>
+        <result column="user_label" property="userLabel"></result>
+        <result column="status" property="status"></result>
+        <result column="org_id" property="orgId"></result>
+        <result column="org_name" property="orgName"></result>
+    </resultMap>
+    <insert id="addWhiteByMobile"  parameterType="java.lang.String">
+
+     INSERT INTO t_white_list(`id`, `user_name`, `mobile`, `timeout_day`, `gmt_create`, `gmt_modify`, `user_label`, `state`, `org_id`, `org_name`)
+     VALUES ( REPLACE(UUID(),'-',''),'测试', #{mobile}, '1', NOW(), NOW(), 2, '1', '1', '51闪电购');
+
+    </insert>
+
+    <insert id="addWhiteByParam"  parameterType="java.lang.String" >
+
+         INSERT INTO t_white_list(`id`, `user_name`, `mobile`, `timeout_day`, `gmt_create`, `gmt_modify`, `user_label`, `state`, `org_id`, `org_name`)VALUES
+( REPLACE(UUID(),'-',''),'测试', #{mobile}, '1', NOW(), NOW(), 0, 1, #{orgId}, #{orgName});
+
+    </insert>
+
+    <select id="findWhiteByParam" resultMap="TWhiteListModelMap" parameterType="java.util.Map">
+        SELECT *FROM t_white_list
+        <where>
+            <if test="mobile!=null">
+                and mobile= #{mobile}
+            </if>
+
+            <if test="orgId!=null">
+                and org_id=#{orgId}
+            </if>
+
+            <if test="orgName!=null">
+                and org_name=#{orgName}
+            </if>
+
+        </where>
+
+    </select>
+
+    <delete id="deleWhiteByParam" parameterType="java.lang.String">
+      delete FROM t_white_list WHERE mobile=#{mobile}
+
+    </delete>
+
+    <select id="findWByMobile" resultMap="TWhiteListModelMap" parameterType="java.lang.String">
+           SELECT *FROM t_white_list WHERE mobile=#{mobile}
+
+    </select>
+
+</mapper>

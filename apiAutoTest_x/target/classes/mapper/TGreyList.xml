@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.lbb">
+    <resultMap id="TGreyListMap" type="com.lbb.model.TGreyListModel">
+        <result column="id" property="id"></result>
+        <result column="user_name" property="userName"></result>
+        <result column="mobile" property="mobile"></result>
+        <result column="timeout_day" property="timeoutDay"></result>
+        <result column="gmt_create" property="gmtCreate"></result>
+        <result column="gmt_modify" property="gmtModify"></result>
+        <result column="status" property="status"></result>
+        <result column="org_id" property="orgId"></result>
+        <result column="org_name" property="orgName"></result>
+    </resultMap>
+    <insert id="addGreyByMobile"  parameterType="java.lang.String">
+
+       INSERT INTO t_grey_list ( `id`,`user_name`, `mobile`, `timeout_day`, `gmt_create`, `gmt_modify`, `state`, `org_id`, `org_name`)
+        VALUES (REPLACE(UUID(),'-',''),'测试', #{mobile}, '1', NOW(), NOW(), '1', '1', '51闪电购');
+
+    </insert>
+
+    <insert id="addGreyByParam"  parameterType="java.lang.String">
+
+        INSERT INTO t_grey_list ( `id`,`user_name`, `mobile`, `timeout_day`, `gmt_create`, `gmt_modify`, `state`, `org_id`, `org_name`)
+        VALUES (REPLACE(UUID(),'-',''),'测试', #{mobile}, '1', NOW(), NOW(), '1', #{orgId}, #{orgName});
+
+    </insert>
+
+    <select id="findGreyByParam" resultMap="TGreyListMap" parameterType="java.util.Map">
+        SELECT *FROM t_grey_list
+        <where>
+            <if test="mobile!=null">
+                and mobile= #{mobile}
+            </if>
+
+            <if test="orgId!=null">
+                and org_id=#{orgId}
+            </if>
+
+            <if test="orgName!=null">
+                and org_name=#{orgName}
+            </if>
+
+        </where>
+
+
+    </select>
+
+    <delete id="deleGreyByParam" parameterType="java.lang.String">
+         delete FROM t_grey_list WHERE mobile=#{mobile}
+
+    </delete>
+
+    <select id="findTByMobile" resultMap="TGreyListMap" parameterType="java.lang.String">
+        select *FROM t_grey_list WHERE mobile=#{mobile}
+    </select>
+
+</mapper>

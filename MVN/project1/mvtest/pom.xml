@@ -1,0 +1,25 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>mvtest</groupId>
+  <artifactId>mvtest</artifactId>
+  <packaging>jar</packaging>
+  <version>1.0-SNAPSHOT</version>
+  <name>mvtest</name>
+  <url>http://maven.apache.org</url>
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.companyname.bank</groupId>  <!-- 库名称，也可以自定义 -->
+      <artifactId>consumerBanking</artifactId>    <!--库名称，也可以自定义-->
+      <version>1.0-SNAPSHOT</version> <!--版本号-->
+      <scope>system</scope> <!--作用域-->
+      <systemPath>D:\MyProgram\JavaProject\MVN\consumerBanking\target\consumerBanking-1.0-SNAPSHOT.jar</systemPath> <!--项目根目录下的lib文件夹下-->
+    </dependency>
+  </dependencies>
+</project>

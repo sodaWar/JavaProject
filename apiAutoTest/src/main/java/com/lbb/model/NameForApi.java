@@ -1,0 +1,17 @@
+package com.lbb.model;
+
+public enum NameForApi {
+
+    TEST_HOSTS_URL,
+    ONLINE_HOSTS_URL,
+
+    WRITE_YUQI_URL,
+    WRITI_SHEBEI_URL,
+    WRITE_ZHIMA_URL,
+    WRITE_BACKLIST_URL,
+
+    READ_YUQI_URL,
+    READ_SHEBEI_URL,
+    READ_ZHIMA_URL,
+    READ_BACKLIST_URL
+}

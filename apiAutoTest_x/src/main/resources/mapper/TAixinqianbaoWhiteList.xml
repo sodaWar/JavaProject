@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lbb">
+    <resultMap id="TAixinqianbaoWhiteList" type="com.lbb.model.TAixinqianbaoWhiteList">
+        <result column="id" property="id"></result>
+        <result column="user_name" property="userName"></result>
+        <result column="mobile" property="mobile"></result>
+        <result column="timeout_day" property="timeoutDay"></result>
+        <result column="gmt_create" property="gmtCreate"></result>
+        <result column="user_label" property="userLabel"></result>
+        <result column="zhima_score" property="zhimaScore"></result>
+        <result column="gmt_modify" property="gmtModify"></result>
+    </resultMap>
+
+    <resultMap id="TAllRejectedTest" type="com.lbb.model.TAllRejectedModel">
+        <result column="id" property="id"></result>
+        <result column="user_name" property="userName"></result>
+        <result column="mobile" property="mobile"></result>
+        <result column="idcard" property="idCard"></result>
+        <result column="reject_n" property="rejectN"></result>
+        <result column="gmt_create" property="gmtCreate"></result>
+        <result column="org_id" property="orgId"></result>
+        <result column="org_name" property="orgName"></result>
+    </resultMap>
+
+    <resultMap id="tDeviceIdBlackList" type="com.lbb.model.TDeviceidblackListModel">
+        <result column="id" property="id"></result>
+        <result column="deviceID" property="deviceID"></result>
+        <result column="cnt_n" property="cntN"></result>
+        <result column="label" property="label"></result>
+        <result column="gmt_create" property="gmtCreate"></result>
+        <result column="org_id" property="orgId"></result>
+        <result column="org_name" property="orgName"></result>
+    </resultMap>
+
+    <resultMap id="TIpblackList" type="com.lbb.model.TIpblackListModel">
+        <result column="id" property="id"></result>
+        <result column="IP" property="IP"></result>
+        <result column="gmt_create" property="gmtCreate"></result>
+        <result column="org_id" property="orgId"></result>
+        <result column="org_name" property="orgName"></result>
+    </resultMap>
+
+
+    <resultMap id="TIsBlackList" type="com.lbb.model.TIsblackListModel">
+        <result column="id" property="id"></result>
+        <result column="phone" property="phone"></result>
+        <result column="id_number" property="idNumber"></result>
+        <result column="name" property="name"></result>
+        <result column="money_amount" property="moneyAmount"></result>
+        <result column="loan_term" property="loanTerm"></result>
+        <result column="order_time" property="orderTime"></result>
+        <result column="is_black" property="isBlack"></result>
+        <result column="gmt_create" property="gmtCreate"></result>
+        <result column="org_id" property="orgId"></result>
+        <result column="org_name" property="orgName"></result>
+    </resultMap>
+
+
+    <resultMap id="TLoanAlreadyList" type="com.lbb.model.TLoanAlreadyListModel">
+        <result column="id" property="id"></result>
+        <result column="phone" property="phone"></result>
+        <result column="id_number" property="idNumber"></result>
+        <result column="name" property="name"></result>
+        <result column="money_amount" property="moneyAmount"></result>
+        <result column="loan_term" property="loanTerm"></result>
+        <result column="order_time" property="orderTime"></result>
+        <result column="is_black" property="isBlack"></result>
+        <result column="gmt_create" property="gmtCreate"></result>
+        <result column="org_id" property="orgId"></result>
+        <result column="org_name" property="orgName"></result>
+    </resultMap>
+
+    <select id="findWhiteByMobile" resultMap="TAixinqianbaoWhiteList" parameterType="java.lang.String">
+        SELECT *FROM t_aixinqianbao_whitelist where mobile =#{mobile}
+
+    </select>
+    <delete id="deleteWhite" parameterType="java.lang.String">
+        delete FROM t_aixinqianbao_whitelist where mobile =#{mobile}
+
+    </delete>
+
+
+
+
+    <select id="findTAllRejectedBymobile" resultMap="TAllRejectedTest" parameterType="java.lang.String">
+         SELECT *FROM t_all_rejected where mobile =#{mobile}
+
+    </select>
+    <delete id="deleteTAllRejected"  parameterType="java.lang.String">
+        delete FROM t_all_rejected where mobile =#{mobile}
+
+    </delete>
+
+
+
+
+
+
+    
+    <select id="findtDeviceIdBlackListBydeviceID" resultMap="tDeviceIdBlackList" parameterType="java.lang.String">
+        SELECT *FROM t_deviceidblack_list where deviceID =#{deviceID}
+
+    </select>
+    <delete id="deleteDevice" parameterType="java.lang.String">
+        delete FROM t_deviceidblack_list where deviceID =#{deviceID}
+
+    </delete>
+
+
+
+    <select id="findTIpblackListByIp" resultMap="TIpblackList" parameterType="java.lang.String">
+        SELECT *FROM t_ipblack_list where IP =#{IP}
+
+    </select>
+    <delete id="deleteTIpblackList"  parameterType="java.lang.String">
+        delete FROM t_ipblack_list where IP =#{IP}
+    </delete>
+
+
+
+    <select id="findTIsBlackListByPhone" resultMap="TIsBlackList" parameterType="java.lang.String">
+        SELECT *FROM t_isblack_list where phone =#{phone}
+
+    </select>
+    <delete id="deleteTIsBlackList" parameterType="java.lang.String">
+        delete FROM t_isblack_list where phone =#{phone}
+    </delete>
+
+
+
+    <select id="findTLoanAlreadyListByPhone" resultMap="TLoanAlreadyList" parameterType="java.lang.String">
+        SELECT *FROM t_loan_already_list where phone =#{phone}
+    </select>
+    <delete id="deleteTLoanAlreadyList" parameterType="java.lang.String">
+       delete FROM t_loan_already_list where phone =#{phone}
+    </delete>
+
+
+</mapper>

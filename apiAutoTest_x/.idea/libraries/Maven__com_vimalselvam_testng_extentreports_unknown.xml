@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.vimalselvam:testng-extentreports:unknown">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/vimalselvam/testng-extentreports/unknown/testng-extentreports-unknown.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/vimalselvam/testng-extentreports/unknown/testng-extentreports-unknown-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/vimalselvam/testng-extentreports/unknown/testng-extentreports-unknown-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

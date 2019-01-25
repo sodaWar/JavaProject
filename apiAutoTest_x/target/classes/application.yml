@@ -1,0 +1,37 @@
+#数据共享mongodb数据库信息
+spring:
+  data:
+    mongodb:
+      host: 47.98.116.205
+      port: 27017
+      username: shareuser
+      password: vSWQugj2Gz8HbGn6
+      database: datashare
+
+
+
+#mysql配置
+spring:
+  application:
+    name: myTest
+
+#测试数据的
+  #datasource:
+   #driver-class-name: com.mysql.jdbc.Driver
+   #url: jdbc:mysql://140.143.3.96:3306/testdb
+   #username: root
+   #password: LB123lb.
+
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://47.97.202.134:3306/test
+    username: ts_51sdgo
+    password: ts_51sdgo_123
+
+
+mybatis:
+#bean的包
+  type-aliases-package: com.lbb.model
+  #mapper 文件夹下的sqlxml
+  mapper-locations:
+    - mapper/*

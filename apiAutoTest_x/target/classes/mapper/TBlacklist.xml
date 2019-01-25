@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.lbb">
+    <resultMap id="TBlacklistModelMap" type="com.lbb.model.TBlacklistModel">
+        <result column="id" property="id"></result>
+        <result column="user_name" property="userName"></result>
+        <result column="mobile" property="mobile"></result>
+        <result column="timeout_day" property="timeoutDay"></result>
+        <result column="gmt_create" property="gmtCreate"></result>
+        <result column="gmt_modify" property="gmtModify"></result>
+        <result column="label" property="label"></result>
+        <result column="status" property="status"></result>
+        <result column="org_id" property="orgId"></result>
+        <result column="org_name" property="orgName"></result>
+    </resultMap>
+    <select id="findBckByParam"  resultMap="TBlacklistModelMap" parameterType="java.lang.String" >
+
+        select *FROM t_black_list
+        <where>
+            <if test="mobile!=null">
+                and mobile= #{mobile}
+            </if>
+            <if test="org_id!=null">
+                and org_id=#{orgId}
+            </if>
+            <if test="org_name!=null">
+                and org_name=#{orgName}
+            </if>
+        </where>
+    </select>
+    <delete id="deleteBackByParam" parameterType="java.lang.String">
+
+       delete FROM t_black_list WHERE mobile=#{mobile}
+    </delete>
+    <insert id="addBlack" parameterType="java.lang.String">
+
+        INSERT INTO `t_black_list` (`id`, `user_name`, `mobile`, `timeout_day`, `gmt_create`, `gmt_modify`, `label`, `status`, `org_id`, `org_name`)
+        VALUES (REPLACE(UUID(),'-',''), '杨伟建', '13843109180', #{timeoutDay}, NOW(), NOW(), '0', '0', NULL, NULL);
+
+
+
+    </insert>
+
+
+</mapper>

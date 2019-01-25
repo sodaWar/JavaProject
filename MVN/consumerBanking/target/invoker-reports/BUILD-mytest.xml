@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<build-job project="mytest\pom.xml" name="" description="" result="failure-build" time="0.002" type="normal">
+  <failureMessage>Maven invocation failed. Error configuring command-line. Reason: Maven executable not found at: D:\ProgramFiles\maven3.6.0\bin\mvn.bat</failureMessage>
+</build-job>

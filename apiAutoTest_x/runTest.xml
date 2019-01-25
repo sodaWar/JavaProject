@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="数据共享" verbose="1" preserve-order="true" parallel="false">
+    <test name="写入风控数据">
+       <classes>
+           <class name="com.lbb.apiTestTwo.WhiteListPushTest"/>
+           <!--<class name="com.lbb.apiTestTwo.AllTest"/>-->
+       </classes>
+    </test>
+    <test name="读取上传的风控数据">
+        <classes>
+            <class name="com.lbb.apiTestTwo.AllTest"/>
+        </classes>
+    </test>
+
+    <listeners>
+        <listener class-name="com.lbb.utils.testNg.ExtentTestNGIReporterListener"></listener>
+    </listeners>
+
+</suite>
