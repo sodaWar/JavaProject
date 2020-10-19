@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e673e0ce-eee2-4d89-a3e7-108b5a854e1d" name="Default" comment="">
+    <list default="true" id="e673e0ce-eee2-4d89-a3e7-108b5a854e1d" name="Default" comment="aa">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -12,20 +12,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MyTest/src/databaseTest/MongoDBTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="346">
+              <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MyTest/src/databaseTest/MongoDBTest2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="337">
-              <caret line="72" column="5" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
+            <state relative-caret-position="327">
+              <caret line="69" column="81" selection-start-line="69" selection-start-column="81" selection-end-line="69" selection-end-column="81" />
             </state>
           </provider>
         </entry>
@@ -36,7 +36,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="test" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
   </component>
@@ -44,6 +44,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/javaPractice/src/test1.java" />
+        <option value="$PROJECT_DIR$/MyTest/src/databaseTest/MongoDBTest.java" />
       </list>
     </option>
   </component>
@@ -163,16 +164,24 @@
       <workItem from="1543824658593" duration="20000" />
       <workItem from="1603096540904" duration="19000" />
     </task>
+    <task id="LOCAL-00001" summary="aa">
+      <created>1603100067043</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603100067043</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5321000" />
+    <option name="totallyTimeSpent" value="6390000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15602264" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24090542" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -238,6 +247,8 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/MVN/CounterWebApp" />
     </ignored-roots>
+    <MESSAGE value="aa" />
+    <option name="LAST_COMMIT_MESSAGE" value="aa" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/apiAutoTest_x/src/main/java/com/lbb/apiTest/BlackListSaveTest.java">
@@ -249,17 +260,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/javaPractice/src/test1.java" />
     <entry file="file://$PROJECT_DIR$/mytest/src/Main.java" />
-    <entry file="file://$PROJECT_DIR$/MyTest/src/databaseTest/MongoDBTest.java">
+    <entry file="file://$PROJECT_DIR$/MyTest/src/databaseTest/MongoDBTest2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="327">
+          <caret line="69" column="81" selection-start-line="69" selection-start-column="81" selection-end-line="69" selection-end-column="81" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MyTest/src/databaseTest/MongoDBTest2.java">
+    <entry file="file://$PROJECT_DIR$/MyTest/src/databaseTest/MongoDBTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="72" column="5" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
+        <state relative-caret-position="346">
+          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
         </state>
       </provider>
     </entry>
