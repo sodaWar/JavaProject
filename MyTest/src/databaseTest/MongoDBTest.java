@@ -21,7 +21,7 @@ public class MongoDBTest{
             System.out.print(collection);
         }catch(Exception e){
             System.err.println( e.getClass().getName() + ": " + e.getMessage() );
-            System.err.println( "this is dev branch2" );
+            System.err.println( "this is dev branch" );
         }
     }
 }
