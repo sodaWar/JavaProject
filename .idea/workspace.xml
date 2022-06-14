@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e673e0ce-eee2-4d89-a3e7-108b5a854e1d" name="Default" comment="测试java提交代码到github上——one">
+    <list default="true" id="e673e0ce-eee2-4d89-a3e7-108b5a854e1d" name="Default" comment="测试java提交代码到github上——two">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_lang3_3_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyTest/src/test_nw1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/JavaProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/JavaProject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,7 +20,7 @@
         <entry file="file://$PROJECT_DIR$/MyTest/src/databaseTest/MongoDBTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="95">
-              <caret line="8" column="45" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="45" />
+              <caret line="8" column="45" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -28,7 +32,7 @@
         <entry file="file://$PROJECT_DIR$/MyTest/src/testApi/TestPostHttpClient2.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="95">
-              <caret line="26" column="19" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="26" selection-end-column="19" />
+              <caret line="26" column="19" selection-start-line="10" selection-start-column="4" selection-end-line="26" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -39,30 +43,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MyTest/src/test_nw1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="56" selection-start-line="2" selection-start-column="56" selection-end-line="2" selection-end-column="56" />
+            <state relative-caret-position="95">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
               <folding>
                 <element signature="e#68#69#0" expanded="true" />
                 <element signature="e#89#90#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MyTest/src/testApi/TestPostHttpClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MyTest/src/databaseTest/MongoDBTest2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1197">
-              <caret line="73" column="1" selection-start-line="73" selection-start-column="1" selection-end-line="73" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -135,6 +121,13 @@
               <item name="JavaProject" type="462c0819:PsiDirectoryNode" />
               <item name="MyTest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="javaExample" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaProject" type="462c0819:PsiDirectoryNode" />
+              <item name="MyTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="testApi" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -148,14 +141,14 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1655198176267" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/MyTest/libs" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1655198631571" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/MyTest/libs/commons-lang3-3.12.0" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -176,6 +169,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="test_nw1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test_nw1" />
+      <module name="JavaProject" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -190,6 +191,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.test_nw1" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -209,7 +215,7 @@
       <workItem from="1543824005386" duration="606000" />
       <workItem from="1543824658593" duration="20000" />
       <workItem from="1603096540904" duration="19000" />
-      <workItem from="1655197540069" duration="534000" />
+      <workItem from="1655197540069" duration="1054000" />
     </task>
     <task id="LOCAL-00001" summary="aa">
       <created>1603100067043</created>
@@ -225,11 +231,25 @@
       <option name="project" value="LOCAL" />
       <updated>1655198044750</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="测试java提交代码到github上——two">
+      <created>1655198143609</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1655198143609</updated>
+    </task>
+    <task id="LOCAL-00004" summary="测试java提交代码到github上——two">
+      <created>1655198207899</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1655198207899</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7061000" />
+    <option name="totallyTimeSpent" value="7581000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -244,7 +264,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.25816995" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2580071" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -253,7 +273,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3291815" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -303,7 +323,8 @@
     </ignored-roots>
     <MESSAGE value="aa" />
     <MESSAGE value="测试java提交代码到github上——one" />
-    <option name="LAST_COMMIT_MESSAGE" value="测试java提交代码到github上——one" />
+    <MESSAGE value="测试java提交代码到github上——two" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试java提交代码到github上——two" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/apiAutoTest_x/src/main/java/com/lbb/apiTest/BlackListSaveTest.java">
@@ -315,9 +336,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/javaPractice/src/test1.java" />
     <entry file="file://$PROJECT_DIR$/mytest/src/Main.java" />
+    <entry file="file://$PROJECT_DIR$/MyTest/src/testApi/TestPostHttpClient2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="26" column="19" selection-start-line="10" selection-start-column="4" selection-end-line="26" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyTest/src/databaseTest/MongoDBTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="8" column="45" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyTest/src/javaExample/JavaArrayEx.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/MyTest/src/databaseTest/MongoDBTest2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1197">
+        <state relative-caret-position="474">
           <caret line="73" column="1" selection-start-line="73" selection-start-column="1" selection-end-line="73" selection-end-column="1" />
         </state>
       </provider>
@@ -329,30 +380,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MyTest/src/testApi/TestPostHttpClient2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="26" column="19" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="26" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyTest/src/databaseTest/MongoDBTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="8" column="45" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MyTest/src/test_nw1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="56" selection-start-line="2" selection-start-column="56" selection-end-line="2" selection-end-column="56" />
+        <state relative-caret-position="95">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
           <folding>
             <element signature="e#68#69#0" expanded="true" />
             <element signature="e#89#90#0" expanded="true" />
@@ -437,7 +468,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>libs</last-edited>
+          <last-edited>commons-lang3-3.12</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
