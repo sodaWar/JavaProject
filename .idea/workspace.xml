@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e673e0ce-eee2-4d89-a3e7-108b5a854e1d" name="Default" comment="测试java提交代码到github上——two">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_lang3_3_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyTest/src/test_nw1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/JavaProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/JavaProject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="e673e0ce-eee2-4d89-a3e7-108b5a854e1d" name="Default" comment="测试java提交代码到github上——3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -141,14 +137,14 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1655198631571" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1655198723933" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/MyTest/libs/commons-lang3-3.12.0" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -215,7 +211,7 @@
       <workItem from="1543824005386" duration="606000" />
       <workItem from="1543824658593" duration="20000" />
       <workItem from="1603096540904" duration="19000" />
-      <workItem from="1655197540069" duration="1054000" />
+      <workItem from="1655197540069" duration="1173000" />
     </task>
     <task id="LOCAL-00001" summary="aa">
       <created>1603100067043</created>
@@ -245,11 +241,18 @@
       <option name="project" value="LOCAL" />
       <updated>1655198207899</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="测试java提交代码到github上——3">
+      <created>1655198663019</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1655198663019</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7581000" />
+    <option name="totallyTimeSpent" value="7700000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -324,7 +327,8 @@
     <MESSAGE value="aa" />
     <MESSAGE value="测试java提交代码到github上——one" />
     <MESSAGE value="测试java提交代码到github上——two" />
-    <option name="LAST_COMMIT_MESSAGE" value="测试java提交代码到github上——two" />
+    <MESSAGE value="测试java提交代码到github上——3" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试java提交代码到github上——3" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/apiAutoTest_x/src/main/java/com/lbb/apiTest/BlackListSaveTest.java">
