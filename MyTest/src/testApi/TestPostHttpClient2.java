@@ -38,9 +38,11 @@ public class TestPostHttpClient2 {
             e.printStackTrace();
         } finally {
             try{
+                PostMethod post2 = new PostMethod();
                 // 关闭连接,释放资源
-                post.releaseConnection();
-                ((SimpleHttpConnectionManager) httpclient.getHttpConnectionManager()).shutdown();
+                post2.releaseConnection();
+                // getConnectionManager()已经被官方弃用了，不需要再用该方法关闭连接
+//                ((SimpleHttpConnectionManager) httpclient.getHttpConnectionManager()).shutdown();
             }catch (NullPointerException e){
                 e.printStackTrace();
             }
